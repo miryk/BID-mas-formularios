@@ -1,0 +1,22 @@
+.formGroup {
+  background-color: rgb(242, 240, 240);
+  color: gray;
+  margin: 5px;
+  padding: 10px 15px;
+  border: 1px solid rgb(178, 175, 175);
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.formGroup > label {
+  text-align: center;
+}
+
+.formGroup > input {
+  border: 1px solid lightgray;
+  border-radius: 5px; 
+  padding: 5px;
+  font-size: medium;
+}
